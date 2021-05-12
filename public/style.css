@@ -49,7 +49,8 @@ body{
 .logo{ 
   color: black;
   height: 65px;
-  margin-left: 10px;
+  text-align: center;
+  float: none;
   align-content: center;
 }
 .bg-image {
@@ -58,6 +59,7 @@ body{
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 .img1 {
   background-image: url(./images/logocard.png);
@@ -65,6 +67,7 @@ body{
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 4%;
+  max-width: 100%;
 }
 .fp-logo{
   display: grid;
@@ -94,6 +97,7 @@ body{
   background-color: #f2f2f2;
   max-width: 33.33333%;
   line-height: 1.6;
+  font-size:2vw
 }
 .our-title{
   text-align: center;
@@ -149,8 +153,8 @@ button {
   font-size: 1.5em;  
 }
 .small-product img {
-  width: 250px;
-  height: 308px;
+  max-width: 250px;
+  max-height: 308px;
   background-position: 50% 50%;
   background-size: cover;
 }
